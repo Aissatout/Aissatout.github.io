@@ -1,0 +1,117 @@
+* {
+    margin: auto;
+    background: #f0f0ea;
+    max-width: 1200px;
+  }
+#header {
+    height: 80px;
+    width: 100%;
+    background-color: #6c5555;
+    position: fixed;
+    z-index: 1;
+  }
+
+  #Ancre {
+      float: left;
+      z-index: 1;
+      background-color: #6c5555;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #left {
+    height: 1000px;
+    width: 55px;
+    background-color: #ddafaf;
+    float: left;
+    position: fixed;
+  }
+
+
+ #right {
+    height: 1200px;
+    width: 45px;
+    background-color: #ddafaf;
+    float: right;
+    position: inherit;
+  }
+
+  #footer {
+ height: 40px;
+  width: 100%;
+  background-color: #6c5555;
+  position: fixed;
+  z-index: 1;
+
+  }
+
+  h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: wavy;
+    background-color: #ddafaf;
+    padding: 2px;
+    margin: 5px;
+}
+
+li {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: circle;
+    margin: 1px;
+}
+
+div.Photo {
+    position: relative;
+    top: 100px;
+    left: 130px;
+}
+
+#Titre {
+    position: relative;
+    left : 500px;
+    top: -180px;
+    border: #6c5555 solid;
+   border: 10px;
+   font-size: large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+#agauche {
+    display: block;
+    position: relative;
+    top: 120px;
+    left: -300px ;
+    width: 300px;
+    border: #6c5555;
+    border: solid;
+}
+
+#Exp {
+    display: block;
+    position: relative;
+    margin-block-start: 20px;
+    height: 200px;
+    width: 600px;
+    border: #6c5555;
+    border: solid;   
+    top: -40px;
+    left: 200px
+}
+
+#Dip {
+    display: block;
+    margin-block-start: 50px;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    border: #6c5555;
+    border: solid;   
+}
+
+#Div {
+    position: relative;
+   display: block;
+   margin-block-start: 20px;
+    width: 600px;
+    height: 200px;
+    border: #6c5555;
+    border: solid;   
+}
+
