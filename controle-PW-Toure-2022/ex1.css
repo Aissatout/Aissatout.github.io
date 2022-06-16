@@ -1,3 +1,4 @@
+
 div.gauche {
     border-left: solid;
     border-bottom: solid;
@@ -5,9 +6,10 @@ div.gauche {
     background-color: #D3D3D3 ;
     position: relative;
     height: 300px;
-    width: 150px;
+    width: 250px;
     bottom: -30px;
     padding: 5px 5px 5px;
+    text-align: left;
 }
 
 h1 {
@@ -16,7 +18,8 @@ h1 {
     border-left: solid;
     font-weight: bold;
     background-color:#F0F0F2 ;
-    padding: 10px 25px 10px ;
+    display: flex;
+    justify-content: center;
 }
 
 div.centre 
@@ -25,13 +28,16 @@ div.centre
     background-color:#9E9E9E ;
     position: relative;
     height: 350px;
-    width: 400px;
+    width: 700px;
     top: -300px;
-    right: -170px;
+    right: -280px;
+    padding: 5px 5px 5px;
 }
 
 h2 {
     background-color:#F0F0F2 ;
+    display: flex;
+    justify-content: center;
 }
 
 div.centre1
@@ -44,26 +50,53 @@ div.centre2
 {
     border-bottom: solid;
     background-color:  #d8d4d4f5; 
+    border-left: solid;
+    border-right: solid;
+    text-align: center;
 }
 div.droite{
     border-right: solid;
     border-bottom: solid;
     border-top: solid;
     background-color: #D3D3D3;
-    height: 150px;
-    width: 150px;
+    height: 190px;
+    width: 270px;
+    position: relative;
+    top: -640px;
+    right: -1020px;
+    padding: 5px 5px 5px;
+    text-align: right;
 }
 
 div.bas {
     border-right: solid;
     border-left: solid;
     background-color:#D3D3D3 ;
+    position: relative;
+    top: -400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 h3 {
-    background-color:#F0F0F2 ;
+    display: flex;
+    justify-content: right;
 }
 
-h4 {
+h4{
     background-color: #F0F0F2;
+    border-right: solid;
+    border-bottom: solid;
+    display: flex;
+    justify-content: center;
+}
+h5 {
+    background-color: #F0F0F2;
+    display: flex;
+    justify-content: center;
+    width: 930px;
+    font-style: italic;
+    
 }
