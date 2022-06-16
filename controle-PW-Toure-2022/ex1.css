@@ -1,0 +1,36 @@
+div.gauche {
+    border: solid;
+    border-left: solid;
+    border-radius: solid;
+    border-top: solid;
+}
+
+h1 {
+    border: solid;
+}
+
+div.centre 
+{
+    border: dotted;
+}
+
+div.centre1
+{
+    border-top: solid;
+}
+
+div.centre2
+{
+    border-bottom: solid;
+}
+div.droite{
+    border-right: solid;
+    border-bottom: solid;
+    border-top: solid;
+}
+
+div.bas {
+    border-right: solid;
+    border-left: solid;
+}
+
