@@ -1,4 +1,4 @@
-div.blocktext1 {
+.blocktext1 {
     background-color: #81c3c9; 
 }
 
@@ -8,9 +8,23 @@ h1{
 
 h2 {
     font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.image1
+{
+    position: relative;
+    right:-1000px;
+}
+ 
+.p2{
+    position: relative;
+    right: -30px;
+    top: -400px;
+    width: 900px;
+    text-align: justify;
+}
