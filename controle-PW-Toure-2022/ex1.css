@@ -1,8 +1,8 @@
 
 div.gauche {
-    border-left: solid;
-    border-bottom: solid;
-    border-top: solid;
+    border-left: solid 1px;
+    border-bottom: solid 1px ;
+    border-top: solid 1px;
     background-color: #D3D3D3 ;
     position: relative;
     height: 300px;
@@ -14,12 +14,14 @@ div.gauche {
 
 h1 {
     
-    border-top: solid;
-    border-left: solid;
+    border-top: solid 1px;
+    border-left: solid 1px;
     font-weight: bold;
     background-color:#F0F0F2 ;
     display: flex;
     justify-content: center;
+    border-right-style: inset;
+    border-bottom-style: inset;
 }
 
 div.centre 
@@ -42,21 +44,20 @@ h2 {
 
 div.centre1
 {
-    border-top: solid;
+    border-top: solid 1px;
     background-color: #d8d4d4f5;
 }
 
 div.centre2
 {
-    border-bottom: solid;
     background-color:  #d8d4d4f5; 
-    border-left: solid;
-    border-right: solid;
+    border-left: solid 1px;
+    border-right: solid 1px;
     text-align: center;
 }
 div.droite{
-    border-right: solid;
-    border-bottom: solid;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
     border-top: solid;
     background-color: #D3D3D3;
     height: 190px;
@@ -69,8 +70,8 @@ div.droite{
 }
 
 div.bas {
-    border-right: solid;
-    border-left: solid;
+    border-right: solid 1px;
+    border-left: solid 1px;
     background-color:#D3D3D3 ;
     position: relative;
     top: -400px;
@@ -87,10 +88,12 @@ h3 {
 
 h4{
     background-color: #F0F0F2;
-    border-right: solid;
-    border-bottom: solid;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
     display: flex;
     justify-content: center;
+    border-right-style: outset;
+    border-bottom-style: outset;
 }
 h5 {
     background-color: #F0F0F2;
@@ -98,5 +101,6 @@ h5 {
     justify-content: center;
     width: 1400px;
     font-style: italic;
+   
     
 }
