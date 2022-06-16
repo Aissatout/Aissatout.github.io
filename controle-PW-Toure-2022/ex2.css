@@ -1,3 +1,7 @@
-p.blocktext {
-    background-color: ;
+div.blocktext1 {
+    background-color: #81c3c9; 
+}
+
+h2 {
+    font-weight: bold;
 }
