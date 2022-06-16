@@ -40,6 +40,9 @@ h2 {
     background-color:#F0F0F2 ;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-left: 200px;
 }
 
 div.centre1
@@ -51,9 +54,12 @@ div.centre1
 div.centre2
 {
     background-color:  #d8d4d4f5; 
-    border-left: solid 1px;
-    border-right: solid 1px;
+    border-bottom: solid 1px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 5px 50px;
 }
 div.droite{
     border-right: solid 1px;
@@ -82,8 +88,10 @@ div.bas {
 }
 
 h3 {
+    width: 680px;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+
 }
 
 h4{
@@ -95,12 +103,17 @@ h4{
     border-right-style: outset;
     border-bottom-style: outset;
 }
+
 h5 {
     background-color: #F0F0F2;
     display: flex;
     justify-content: center;
     width: 1400px;
-    font-style: italic;
-   
-    
+    font-style: italic;    
+}
+
+div.text {
+    border-left: solid 1px;
+    border-right: solid 1px;
+    width: 500px;
 }
